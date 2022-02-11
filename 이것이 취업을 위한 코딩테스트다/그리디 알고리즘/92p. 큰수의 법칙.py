@@ -15,13 +15,3 @@ my_list = sorted(Ns)[-2:]
 answer = (my_list[1] * K * (M // K)) + (my_list[0] * (M % K))
 
 print(answer)
-
-
-'''
-10m16s
-
-책 뒤쪽 내용을 보니 수열관련 내용이 있다. 수열 측면에서 보면 맞을지도
-좀 더 많은 test case가 필요할 것 같다.
-
-파이썬에서는, 몫을 나타내기 위해 int(a / b) or a//b 를 사용한다
-'''
