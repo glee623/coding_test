@@ -7,7 +7,6 @@ for i in range(N):
 
 print(max(row_min))
 
-#쉽게 풀었다. 3m 4s
 
 #책에 나와있는 append를 쓰지 않는방법. 굳이 값들을 다 저장해놓고 쓸필요 x
 result = 0
