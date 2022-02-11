@@ -9,5 +9,3 @@ while(N != 1):
         N -= 1
         cnt += 1
 print(cnt)
-
-#쉽게 풀었다. 2m 5s
